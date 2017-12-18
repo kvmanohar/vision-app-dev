@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CE54F6231FE86D5F004F441A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE54F6221FE86D5F004F441A /* AppDelegate.swift */; };
-		CE54F6251FE86D5F004F441A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE54F6241FE86D5F004F441A /* ViewController.swift */; };
+		CE54F6251FE86D5F004F441A /* CameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE54F6241FE86D5F004F441A /* CameraVC.swift */; };
 		CE54F6281FE86D5F004F441A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE54F6261FE86D5F004F441A /* Main.storyboard */; };
 		CE54F62A1FE86D5F004F441A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE54F6291FE86D5F004F441A /* Assets.xcassets */; };
 		CE54F62D1FE86D5F004F441A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE54F62B1FE86D5F004F441A /* LaunchScreen.storyboard */; };
@@ -17,7 +17,7 @@
 /* Begin PBXFileReference section */
 		CE54F61F1FE86D5F004F441A /* vision-app-dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "vision-app-dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE54F6221FE86D5F004F441A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CE54F6241FE86D5F004F441A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE54F6241FE86D5F004F441A /* CameraVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraVC.swift; sourceTree = "<group>"; };
 		CE54F6271FE86D5F004F441A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE54F6291FE86D5F004F441A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE54F62C1FE86D5F004F441A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,14 +54,38 @@
 		CE54F6211FE86D5F004F441A /* vision-app-dev */ = {
 			isa = PBXGroup;
 			children = (
+				CE54F6361FE86DCD004F441A /* Resources */,
+				CE54F6351FE86DC0004F441A /* View */,
+				CE54F6341FE86DA4004F441A /* Controller */,
 				CE54F6221FE86D5F004F441A /* AppDelegate.swift */,
-				CE54F6241FE86D5F004F441A /* ViewController.swift */,
 				CE54F6261FE86D5F004F441A /* Main.storyboard */,
 				CE54F6291FE86D5F004F441A /* Assets.xcassets */,
 				CE54F62B1FE86D5F004F441A /* LaunchScreen.storyboard */,
 				CE54F62E1FE86D5F004F441A /* Info.plist */,
 			);
 			path = "vision-app-dev";
+			sourceTree = "<group>";
+		};
+		CE54F6341FE86DA4004F441A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE54F6241FE86D5F004F441A /* CameraVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CE54F6351FE86DC0004F441A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE54F6361FE86DCD004F441A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE54F6251FE86D5F004F441A /* ViewController.swift in Sources */,
+				CE54F6251FE86D5F004F441A /* CameraVC.swift in Sources */,
 				CE54F6231FE86D5F004F441A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
