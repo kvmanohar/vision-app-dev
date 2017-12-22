@@ -65,6 +65,10 @@
                                     <constraint firstAttribute="height" constant="200" id="yjG-in-2CN"/>
                                 </constraints>
                             </imageView>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="VaR-OZ-0Fm">
+                                <rect key="frame" x="280" y="547" width="20" height="20"/>
+                                <color key="color" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </activityIndicatorView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3fi-g6-zhc" customClass="RoundedShadowButton" customModule="vision_app_dev" customModuleProvider="target">
                                 <rect key="frame" x="20" y="615" width="85" height="32"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -83,6 +87,8 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="rPB-iM-qlh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="1v5-JN-ppL"/>
+                            <constraint firstItem="VaR-OZ-0Fm" firstAttribute="centerX" secondItem="gyx-Pe-bag" secondAttribute="centerX" id="5CL-P4-Mb2"/>
+                            <constraint firstItem="VaR-OZ-0Fm" firstAttribute="centerY" secondItem="gyx-Pe-bag" secondAttribute="centerY" id="KPT-dS-aQr"/>
                             <constraint firstItem="ue0-sJ-Faq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="QxZ-0H-HeC"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="rPB-iM-qlh" secondAttribute="bottom" id="YG8-z7-wdg"/>
                             <constraint firstItem="3fi-g6-zhc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="c5Q-Cm-qyf"/>
@@ -103,6 +109,7 @@
                         <outlet property="flashButton" destination="3fi-g6-zhc" id="d0p-z5-aYp"/>
                         <outlet property="identificationLbl" destination="i9h-yp-f0K" id="HB9-1F-oRb"/>
                         <outlet property="roundedLblView" destination="ue0-sJ-Faq" id="Ca7-97-Mdg"/>
+                        <outlet property="spinner" destination="VaR-OZ-0Fm" id="RBb-4y-3Ut"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
